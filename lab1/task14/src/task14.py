@@ -72,6 +72,7 @@ def format_data(data):
         d.append(int(t))
     return d, op
 
+
 def task14():
     # Входные данные
     PATH_INPUT = 'lab1/task14/txtf/input.txt'
