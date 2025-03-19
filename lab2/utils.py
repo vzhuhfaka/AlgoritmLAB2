@@ -9,7 +9,7 @@ def write_data(path_file: str, text: str) -> None:
 def print_data(number_lab: int, number_task: int, input_data, output_data) -> None:
     print(f'Лабораторная: {number_lab} Задача: {number_task}\n'
           f'Входные данные: {input_data}\n'
-          f'Вывод: {output_data}\n'
-          f'{'-' * 30}')
+          f'Вывод: {output_data}')
 
-__all__ = ['read_data', 'write_data']
+
+__all__ = ['read_data', 'write_data', 'print_data']
