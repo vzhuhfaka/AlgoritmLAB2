@@ -7,7 +7,7 @@ sys.path.insert(0, parent_dir)
 
 from lab1.utils import read_data, write_data
 
-def task8(W, weights):
+def task11(W, weights):
     n = len(weights)
     dp = [0] * (W + 1)
 
@@ -31,7 +31,7 @@ def main():
 
     print('Лабораторная 1 Задача 11')
     print(f'Входные данные: {data}')
-    answer = task8(W_backpack_, w_)
+    answer = task11(W_backpack_, w_)
     print(f'Вывод: {answer}')
     write_data(PATH_OUTPUT, str(answer))
     print('-'*30)
