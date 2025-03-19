@@ -30,11 +30,11 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/vzhuhfaka/AlgoritmLAB1.git
+   git clone https://github.com/vzhuhfaka/AlgoritmLAB2.git
    ```
 2. Перейдите в папку с проектом:
    ```bash
-   cd AlgoritmLAB1
+   cd AlgoritmLAB2
    ```
 3. **Запуску всех задач**
     ```bash
