@@ -47,18 +47,6 @@ def find_min_greater(root, x):
     return result
 
 
-def init_tree(data):
-    """
-    Создание BST из списка данных
-    :param data: список значений, например [0, 43, 2, 4, 29, 13]
-    :return: корень дерева
-    """
-    root = None
-    for item in data:
-        root = insert(root, item)
-    return root
-
-
 def task3(data):
     """
     Обработка запросов и построение BST
@@ -91,9 +79,10 @@ def main():
     results = task3(format_data)
 
     # Вывод результатов
-    print_data(number_lab=2, number_task=1, input_data=format_data, output_data=results)
+    print_data(number_lab=2, number_task=3, input_data=format_data, output_data=results)
     print(f'\n{'-' * 30}')
     write_data(PATH_OUTPUT, str(results))
+
 
 if __name__ == '__main__':
     main()
