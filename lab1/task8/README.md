@@ -49,7 +49,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/vzhuhfaka/AlgoritmLAB1.git
+   git clone https://github.com/vzhuhfaka/AlgoritmLAB2.git
    ```
 2. Запустите программу:
    ```bash

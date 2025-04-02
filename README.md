@@ -5,6 +5,7 @@
 ### Навигация
  
 - [X] [Лабораторная 1 - тема Жадные алгоритмы. Динамическое программирование №2](lab1/README.md)
+- [X] [Лабораторная 2 - тема Двоичные деревья поиска №2](lab2/README.md)
 
 ### Описание 
 В данной лабораторной работе изучается еще один мощный инструмент, жад-
@@ -30,11 +31,11 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/vzhuhfaka/AlgoritmLAB1.git
+   git clone https://github.com/vzhuhfaka/AlgoritmLAB2.git
    ```
 2. Перейдите в папку с проектом:
    ```bash
-   cd AlgoritmLAB1
+   cd AlgoritmLAB2
    ```
 3. **Запуску всех задач**
     ```bash
